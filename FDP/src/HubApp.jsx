@@ -37,7 +37,7 @@ export function HubApp(){
         </div>
           </Col>
           <Col md={6} className='iframe-container'>
-            <script src="//onlinegdb.com/embed/js/2bQsMbbM6?theme=dark"></script>
+          <script src="//onlinegdb.com/embed/js/ZTN5BYweb?theme=dark"></script>
           </Col>
         </Row>
 
