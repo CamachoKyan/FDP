@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
+import { Link } from 'react-router-dom';
 
-export const ExcersiceList = () => {
+const ExcersiceList = () => {
   const [Folders, setFolders] = useState([]);
   const [Loading, setLoading] = useState(true);
 
@@ -42,12 +43,9 @@ export const ExcersiceList = () => {
       <ul>
         {Folders.map((Folder) => (
           <li key={Folder.name}>
-            <a 
-              href={`https://${User}.github.io/${Repository}/${Folder.name}/`} 
-              rel="noopener noreferrer"
-            >
+            <Link to={`/FDP/${Folder.name}`}>
               {Folder.name}
-            </a>
+            </Link>
           </li>
         ))}
       </ul>
