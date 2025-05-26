@@ -37,7 +37,14 @@ export function HubApp(){
         </div>
           </Col>
           <Col md={6} className='iframe-container'>
-          <script src="//onlinegdb.com/embed/js/ZTN5BYweb?theme=dark"></script>
+            <iframe
+  src="https://www.onlinegdb.com/embed/2bQsMbbM6?theme=dark"
+  width="100%"
+  height="400"
+  style={{ border: 'none' }}
+  title="OnlineGDB"
+/>
+
           </Col>
         </Row>
 
