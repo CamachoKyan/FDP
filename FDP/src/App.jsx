@@ -5,7 +5,7 @@ import { HubApp } from './HubApp.jsx'
 
 export function App() {
   return (
-    <HashRouter basename="/FDP">
+    <HashRouter>
       <Route path="/" element={<ExcersiceList />} />
       <Route path="/FDP/:carpeta" element={<HubApp />} />
     </HashRouter>
