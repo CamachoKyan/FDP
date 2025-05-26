@@ -72,7 +72,6 @@ export function HubApp() {
           </Col>
         </Row>
       </Container>
-      <Footer />
     </>
   );
 }

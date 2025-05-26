@@ -11,7 +11,7 @@ export const ExcersiceList = () => {
   useEffect(() => {
     const fetchFolders = async () => {
       try {
-        const response = await fetch(`https://api.github.com/repos/${User}/${Repository}/contents/Ejercicios`);
+        const response = await fetch(`https://api.github.com/repos/${User}/${Repository}/contents/Ejercicios/`);
         const data = await response.json();
 
         const OnlyFolders = data.filter(item => 
@@ -43,9 +43,10 @@ export const ExcersiceList = () => {
       <ul>
         {Folders.map((Folder) => (
           <li key={Folder.name}>
-            <Link to={`/FDP/${Folder.name}`}>
+            <Link to={`/${Folder.name}`}>
               {Folder.name}
             </Link>
+
           </li>
         ))}
       </ul>

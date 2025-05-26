@@ -5,9 +5,9 @@ import { HubApp } from './HubApp.jsx'
 
 export function App() {
   return (
-    <>
+    <Routes>
       <Route path="/" element={<ExcersiceList />} />
-      <Route path="/FDP/:carpeta" element={<HubApp />} />
-    </>
+      <Route path="/:Folder" element={<HubApp />} />
+    </Routes>
   );
 }
