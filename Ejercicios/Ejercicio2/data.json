@@ -1,0 +1,10 @@
+{
+  "Description": "Pedir el radio de una circunferencia y calcular\nsu longitud. (perímetro) \nHacerlo en python",
+  "ogdbID": "gcfzJfbpC",
+  "Steps": [
+    "Pedir al usuario que ingrese el radio de la circunferencia",
+    "Crear una función que reciba el radio como parámetro y calcule la longitud usando la fórmula: longitud = 2 * π * radio",
+    "Llamar a la función desde el bloque principal y mostrar el resultado",
+    "Implementar todo el código en Python"
+  ]
+}

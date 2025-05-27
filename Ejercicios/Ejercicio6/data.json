@@ -1,0 +1,12 @@
+{
+  "Description": "Pedir tres números y mostrarlos ordenados de\nmayor a menor. Ejemplo si entra 5,10,3 -> 10,5,3\nhacerlo en python",
+  "ogdbID": "LVsVnXe6c",
+  "Steps": [
+    "Pedir al usuario que ingrese el primer número",
+    "Pedir al usuario que ingrese el segundo número",
+    "Pedir al usuario que ingrese el tercer número",
+    "Colocar los tres números en una lista",
+    "Ordenar la lista en orden descendente",
+    "Mostrar los números ordenados de mayor a menor"
+  ]
+}

@@ -5,20 +5,20 @@ Data = input("Ingresa El Sueldo Diario - Días Trabajados - Horas Extras :\n").s
 
 Hours, Days, Extras = map(float, Data)
 
-NormalPay = Hours/Days
+NormalPay = Hours / 8 
 
-DoubleExtra = 0
+BasePay = Hours * Days
 
-TripleExtra = 0
+if Extras <= 20:
+    HorasDobles = Extras
+    HorasTriples = 0
+else:
+    HorasDobles = 20
+    HorasTriples = Extras - 20
 
+DoubleExtra = HorasDobles * NormalPay * 2
+TripleExtra = HorasTriples * NormalPay * 3
 
-Extra = NormalPay * Extras
+Total = BasePay + DoubleExtra + TripleExtra
 
-DoubleExtra = Extra * 2
-
-if Extras>20:
-    TripleExtra = Extra * 3
-
-Total = TripleExtra + DoubleExtra + (NormalPay*Days)
-
-print(f"Sueldo Por Día: {NormalPay:.2f},\nSueldo Horas Extras Dobles: {DoubleExtra:.2f},\nSueldo Horas Extras Triples: {TripleExtra:.2f},\nTotal: {Total:.2f}")
+print(f"Sueldo Por Día: {NormalPay:.2f}, Sueldo Horas Extras Dobles: {DoubleExtra:.2f}, Sueldo Horas Extras Triples: {TripleExtra:.2f}, Total: {Total:.2f}")

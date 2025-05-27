@@ -1,0 +1,11 @@
+{
+  "Description": "Pedir dos números y decir si uno es múltiplo del otro. si n1 o n2 es múltiplo del otro\nEjemplos: 5 no es múltiplo de 2, 4 es múltiplo de 2, 10 es múltiplo de 5\nSi ingresas 5 y 10: 5 no es múltiplo de 10 pero 10 sí es múltiplo de 5\nUn múltiplo es cuando un número es divisible exactamente por otro\nHacerlo en python",
+  "ogdbID": "593epWrZK",
+  "Steps": [
+    "Pedir al usuario que ingrese el primer número (n1)",
+    "Pedir al usuario que ingrese el segundo número (n2)",
+    "Verificar si n1 es divisible exactamente por n2 (n1 % n2 == 0)",
+    "Verificar si n2 es divisible exactamente por n1 (n2 % n1 == 0)",
+    "Mostrar cuál número es múltiplo del otro o si ninguno lo es"
+  ]
+}

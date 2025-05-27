@@ -1,0 +1,10 @@
+{
+  "Description": "Pedir un número e indicar si es positivo o negativo.\nHacerlo en python",
+  "ogdbID": "zmUOltDkJ",
+  "Steps": [
+    "Pedir al usuario que ingrese un número",
+    "Verificar si el número es mayor o igual a cero para determinar si es positivo",
+    "Si el número es menor que cero, indicar que es negativo",
+    "Mostrar el resultado al usuario"
+  ]
+}

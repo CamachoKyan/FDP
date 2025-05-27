@@ -1,0 +1,12 @@
+{
+  "Description": "Pedir una calificación de 0 a 10 y mostrarla de\nla forma: Insuficiente, Suficiente, Bien... considerando que una calificación\n< 7 es insuficiente, 7 es suficiente… elaborar este programa en java",
+  "ogdbID": "uQDCQa1ZQ",
+  "Steps": [
+    "Pedir al usuario que ingrese una calificación entre 0 y 10",
+    "Verificar si la calificación es menor que 7",
+    "Si es menor que 7, mostrar 'Insuficiente'",
+    "Si es igual a 7, mostrar 'Suficiente'",
+    "Si es mayor que 7 y menor que 9, mostrar 'Bien'",
+    "Si es 9 o 10, mostrar 'Excelente'"
+  ]
+}

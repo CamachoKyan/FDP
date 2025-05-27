@@ -1,0 +1,12 @@
+{
+  "Description": "Pedir dos números y mostrar como resultado si tienen el mismo valor o si n1 es menor o mayor\nelaborarlo en java",
+  "ogdbID": "V0GTeFMk8",
+  "Steps": [
+    "Pedir al usuario que ingrese el primer número (n1)",
+    "Pedir al usuario que ingrese el segundo número (n2)",
+    "Comparar ambos números:",
+    "  - Si n1 es igual a n2, mostrar que tienen el mismo valor",
+    "  - Si n1 es mayor que n2, mostrar que n1 es mayor",
+    "  - Si n1 es menor que n2, mostrar que n1 es menor"
+  ]
+}

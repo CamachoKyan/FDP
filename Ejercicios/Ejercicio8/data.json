@@ -1,0 +1,12 @@
+{
+  "Description": "Pedir el día, mes y año de una fecha correcta y\nmostrar la fecha del día siguiente\nhacerlo en python",
+  "ogdbID": "WmDZ8aDMI",
+  "Steps": [
+    "Pedir al usuario que ingrese el día",
+    "Pedir al usuario que ingrese el mes",
+    "Pedir al usuario que ingrese el año",
+    "Crear un objeto de fecha con los valores ingresados",
+    "Sumar un día a la fecha utilizando funciones de fecha",
+    "Mostrar la fecha del día siguiente"
+  ]
+}
