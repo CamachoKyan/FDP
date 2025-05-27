@@ -1,0 +1,9 @@
+{
+  "Description": "Calcular el sueldo total percibido por un empleado, dado su sueldo diario, los días trabajados y las horas extras trabajadas por semana. El sueldo principal se calculará considerando los días trabajados (sueldo_total = sueldo_diario * días_trabajados) y las horas extras de la siguiente manera: \n\nSi trabajó 20 horas o menos, entonces se le pagarán las horas al doble. \nSi trabajó más de 20 horas (21 en adelante), se le pagarán 20 horas dobles y las demás serán triples (las horas por encima de 20). \n\nLa fórmula para calcular las horas extras triples es: \ntriple = horas_trabajadas - 20. \n\nSe debe calcular el sueldo normal, las horas extras dobles, las horas extras triples y el sueldo total, e imprimir los resultados (sueldo normal, horas dobles, horas triples y el total). \n\nPara calcular el valor de la hora doble y triple, considere una jornada diaria de trabajo de 8 horas. Por ejemplo, si el sueldo diario es de 300, entonces la hora normal será 300/8 = 37.5. Por lo tanto, la hora extra doble será 37.5 * 2 = 75 y la hora extra triple será 37.5 * 3 = 112.5. \n\nDesarrollar la solución en Python.",
+  "ogdbID": "RHXPWr4pd",
+  "Steps": [
+    "Obtener el sueldo diario",
+    "Obtener los días trabajados",
+    "Obtener las horas extras trabajadas por semana"
+  ]
+}
