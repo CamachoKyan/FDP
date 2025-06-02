@@ -1,0 +1,12 @@
+{
+  "Description": "Leer 10 números enteros. Debemos mostrarlos en el siguiente orden:\nel primero, el último, el segundo, el penúltimo, \nel tercero, el antepenúltimo... y así sucesivamente\n\nejemplo entrada: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10\nsalida: 1, 10, 2, 9, 3, 8, 4, 7, 5, 6\nHacerlo en python",
+  "ogdbID": "_MsXMK-UpF",
+  "Steps": [
+    "Crear una lista vacía para guardar los 10 números",
+    "Pedir al usuario que ingrese 10 números enteros uno por uno y almacenarlos en la lista",
+    "Inicializar dos índices: uno desde el inicio de la lista y otro desde el final",
+    "Alternar la impresión de los elementos: primero el del inicio, luego el del final",
+    "Avanzar el índice inicial hacia adelante y el final hacia atrás",
+    "Repetir hasta que se hayan mostrado los 10 números en el orden requerido"
+  ]
+}

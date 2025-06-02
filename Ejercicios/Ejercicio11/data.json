@@ -1,0 +1,12 @@
+{
+  "Description": "Leer números hasta que se introduzca un 0. Para\ncada uno indicar si es par o impar\nJAVA",
+  "ogdbID": "ezwwTHM71",
+  "Steps": [
+    "Pedir al usuario que ingrese un número",
+    "Mientras el número no sea 0, repetir lo siguiente",
+    "Verificar si el número es divisible entre 2",
+    "Si lo es, mostrar que es par",
+    "Si no lo es, mostrar que es impar",
+    "Pedir al usuario el siguiente número"
+  ]
+}

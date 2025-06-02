@@ -1,0 +1,13 @@
+{
+  "Description": "Realizar un juego para adivinar un número.\nPara ello generar aleatoriamente n (entre 1 y 100)\nn = (int)(Math.random()*100)+1;\ny luego ir pidiendo números indicando\n“mayor” o “menor” según sea mayor o\nmenor con respecto a n. El proceso termina cuando el usuario acierta\nHacerlo en JAVA",
+  "ogdbID": "SxkDUITk8-",
+  "Steps": [
+    "Generar un número aleatorio entre 1 y 100 y guardarlo en una variable n",
+    "Pedir al usuario que ingrese un número",
+    "Comparar el número ingresado con n",
+    "Si el número es mayor que n, mostrar 'menor'",
+    "Si el número es menor que n, mostrar 'mayor'",
+    "Repetir el proceso hasta que el usuario acierte el número",
+    "Mostrar un mensaje de acierto cuando el número sea correcto"
+  ]
+}

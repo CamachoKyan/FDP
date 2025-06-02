@@ -1,0 +1,11 @@
+{
+  "Description": "Leer un número y mostrar su cuadrado, \nrepetir el proceso hasta que se introduzca un número negativo\nHacerlo en Python",
+  "ogdbID": "Zck1Q3hP0",
+  "Steps": [
+    "Pedir al usuario que ingrese un número",
+    "Verificar si el número es negativo",
+    "Si no es negativo, calcular y mostrar su cuadrado",
+    "Repetir el proceso mientras el número no sea negativo",
+    "Finalizar cuando se introduzca un número negativo"
+  ]
+}

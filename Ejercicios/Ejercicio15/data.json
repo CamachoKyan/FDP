@@ -1,0 +1,11 @@
+{
+  "Description": "Diseñar una función que tenga como parámetros dos números, y que calcule el máximo, \nlo puede imprimir dentro de la función o lo entregue al programa en este caso main \npara que él lo imprima. (Función con return)\nHecho en python",
+  "ogdbID": "3rPy-mHFl",
+  "Steps": [
+    "Definir una función que reciba dos parámetros numéricos",
+    "Comparar los dos números dentro de la función",
+    "Devolver el número mayor usando return",
+    "Llamar a la función desde el programa principal (main)",
+    "Imprimir el valor devuelto por la función"
+  ]
+}
