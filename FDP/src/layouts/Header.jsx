@@ -6,8 +6,8 @@ export function Header() {
     <>
     <Navbar bg="dark" navbar navbar-expand-lg fixed-top>
       <Container fluid>
-        {/* Logo y nombre a la izquierda */}
-        <Navbar.Brand href="/" className='ms-lg-2 fs-4 fw-bold'>
+        {}
+        <Navbar.Brand href="/FDP" className='ms-lg-2 fs-4 fw-bold'>
            <img
               alt="Logo"
               src="./Lince.png"
